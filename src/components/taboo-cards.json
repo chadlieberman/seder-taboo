@@ -1,0 +1,375 @@
+[
+    {
+        "main_word": "Wine",
+        "banned_words": [
+            "Grapes",
+            "Cup",
+            "Alcohol",
+            "Drink",
+            "Booze"
+        ]
+    },
+    {
+        "main_word": "Haggadah",
+        "banned_words": [
+            "Book",
+            "Story",
+            "List",
+            "Order",
+            "Prayers"
+        ]
+    },
+    {
+        "main_word": "Afikomen",
+        "banned_words": [
+            "Matzah",
+            "Game",
+            "Hide",
+            "Find",
+            "Prize"
+        ]
+    },
+    {
+        "main_word": "Bitter herbs",
+        "banned_words": [
+            "Horseradish",
+            "Lettuce",
+            "Any actual herb",
+            "Dip",
+            "Salt"
+        ]
+    },
+    {
+        "main_word": "Birkat hamazon",
+        "banned_words": [
+            "Prayer",
+            "Sing",
+            "Meal",
+            "Food",
+            "Dinner"
+        ]
+    },
+    {
+        "main_word": "Charoset",
+        "banned_words": [
+            "Any of the ingredients (apples, dates, raisins, walnuts, honey)",
+            "Mortar",
+            "Food",
+            "Sweet",
+            "Brick"
+        ]
+    },
+    {
+        "main_word": "Moses",
+        "banned_words": [
+            "King",
+            "Jew",
+            "Pharaoh",
+            "10 commandments",
+            "Miriam",
+            "Baby",
+            "Egypt"
+        ]
+    },
+    {
+        "main_word": "Plague",
+        "banned_words": [
+            "Coronavirus",
+            "Black Plague/ bubonic plague/ Black Death",
+            "Any of the actual 10 plagues",
+            "",
+            "Leaning",
+            "Recline",
+            "Pillow",
+            "Chair",
+            "Seat",
+            "Relax"
+        ]
+    },
+    {
+        "main_word": "Seder plate",
+        "banned_words": [
+            "Any of the actual items on the Seder plate",
+            "Order",
+            "Symbol",
+            "Spring",
+            "Dish"
+        ]
+    },
+    {
+        "main_word": "Egypt",
+        "banned_words": [
+            "Country",
+            "Africa",
+            "Pyramids",
+            "Pharaohs",
+            "Giza"
+        ]
+    },
+    {
+        "main_word": "Red Sea",
+        "banned_words": [
+            "Ocean",
+            "Parting",
+            "Moses",
+            "Waves",
+            "Water",
+            "Drowning"
+        ]
+    },
+    {
+        "main_word": "Miriam",
+        "banned_words": [
+            "Sister",
+            "Moses",
+            "Pharaoh",
+            "Reeds",
+            "Baby",
+            "Basket"
+        ]
+    },
+    {
+        "main_word": "Pharaoh",
+        "banned_words": [
+            "King",
+            "Egypt",
+            "Pyramid",
+            "Moses",
+            "King tut",
+            "Sarcophagus"
+        ]
+    },
+    {
+        "main_word": "4",
+        "banned_words": [
+            "4 in any other language",
+            "Count",
+            "Number",
+            "Add, subtract, multiply, divide",
+            "Any numbers"
+        ]
+    },
+    {
+        "main_word": "Sand",
+        "banned_words": [
+            "Grains",
+            "Yellow",
+            "Desert",
+            "Walk",
+            "Ground",
+            "Dirt"
+        ]
+    },
+    {
+        "main_word": "Pillow",
+        "banned_words": [
+            "Bed",
+            "Recline",
+            "Lean",
+            "Chair",
+            "Sleep",
+            "Head"
+        ]
+    },
+    {
+        "main_word": "Apple",
+        "banned_words": [
+            "Fruit",
+            "Sweet",
+            "Food",
+            "Any variety of apple",
+            "Charoset"
+        ]
+    },
+    {
+        "main_word": "Story",
+        "banned_words": [
+            "Tale",
+            "Book",
+            "Characters",
+            "Plot",
+            "Pages"
+        ]
+    },
+    {
+        "main_word": "Frog",
+        "banned_words": [
+            "Amphibian",
+            "Jump",
+            "Hop",
+            "Green",
+            "Toad",
+            "Salamander",
+            "Newt"
+        ]
+    },
+    {
+        "main_word": "Lettuce",
+        "banned_words": [
+            "Vegetable",
+            "Leaf",
+            "Green",
+            "Salad",
+            "Bitter",
+            "Herb"
+        ]
+    },
+    {
+        "main_word": "Egg",
+        "banned_words": [
+            "Chicken (or any other bird)",
+            "Nest",
+            "Spring",
+            "Baby",
+            "Bird",
+            "Scrambled, fried, poached"
+        ]
+    },
+    {
+        "main_word": "Salt water",
+        "banned_words": [
+            "Ocean",
+            "Dip",
+            "Bitter herb",
+            "Solution",
+            "Sodium chloride"
+        ]
+    },
+    {
+        "main_word": "Parsley",
+        "banned_words": [
+            "Green",
+            "Any type of herb",
+            "Dip",
+            "Salt water",
+            "Leaf"
+        ]
+    },
+    {
+        "main_word": "Lice",
+        "banned_words": [
+            "Bug",
+            "Insect",
+            "Itch",
+            "Scratch",
+            "Head"
+        ]
+    },
+    {
+        "main_word": "Dip",
+        "banned_words": [
+            "Bitter herb",
+            "Parsley",
+            "Lettuce",
+            "Salt water",
+            "Dunk",
+            "Submerge"
+        ]
+    },
+    {
+        "main_word": "Question",
+        "banned_words": [
+            "Who",
+            "What",
+            "When",
+            "Where",
+            "Why",
+            "How"
+        ]
+    },
+    {
+        "main_word": "Matzah",
+        "banned_words": [
+            "Cracker",
+            "Bread",
+            "Wheat",
+            "Flour",
+            "Unleavened",
+            "Flat"
+        ]
+    },
+    {
+        "main_word": "Bread",
+        "banned_words": [
+            "Flour",
+            "Yeast",
+            "Bake",
+            "Challah",
+            "Bun",
+            "Loaf"
+        ]
+    },
+    {
+        "main_word": "Lamb",
+        "banned_words": [
+            "Shank bone",
+            "Blood",
+            "Plague",
+            "Sheep",
+            "Baby"
+        ]
+    },
+    {
+        "main_word": "Exodus",
+        "banned_words": [
+            "Leave",
+            "Flight",
+            "Egypt",
+            "Moses",
+            "Jews",
+            "Egyptians",
+            "Torah, bible, New Testament"
+        ]
+    },
+    {
+        "main_word": "Order",
+        "banned_words": [
+            "Seder",
+            "Count",
+            "Number",
+            "Restaurant"
+        ]
+    },
+    {
+        "main_word": "Shank",
+        "banned_words": [
+            "Lamb",
+            "Sheep",
+            "Bone",
+            "Meat",
+            "Blood",
+            "Stab"
+        ]
+    },
+    {
+        "main_word": "Elijah",
+        "banned_words": [
+            "Name",
+            "Man",
+            "Cup",
+            "Wine",
+            "Door",
+            "Miracle"
+        ]
+    },
+    {
+        "main_word": "Cup",
+        "banned_words": [
+            "Drink",
+            "Any beverage",
+            "Glass",
+            "Elijah",
+            "Miriam"
+        ]
+    },
+    {
+        "main_word": "Festival",
+        "banned_words": [
+            "Party",
+            "Celebration",
+            "Event",
+            "Music",
+            "Coachella"
+        ]
+    }
+]
