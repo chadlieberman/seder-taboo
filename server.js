@@ -5,6 +5,7 @@ import path from 'path'
 const PORT = process.env.PORT || 5000
 
 let app = express()
+const server = http.Server(app)
 
 app.set('port', PORT)
 
