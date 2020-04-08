@@ -4,6 +4,8 @@ import http from 'http'
 import path from 'path'
 const PORT = process.env.PORT || 5000
 
+let app = express()
+
 app.set('port', PORT)
 
 app.use('/static', express.static(__dirname + '/build/static'))
