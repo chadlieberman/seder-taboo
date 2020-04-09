@@ -15,7 +15,6 @@ const Card = ({main_word, banned_words}) => (
             {main_word}
         </div>
         <div id='banned-words'>
-            <p>Do NOT mention these words:</p>
             <ul>
                 {banned_words.map((w, i) => (
                     <li key={i}>{w}</li>
@@ -140,41 +139,55 @@ class Game extends React.Component {
     render() {
         const {time, card_idx, cards, got, pass, buzz} = this.state
         let timer_text = ''
+        let timer_style = {}
         if (time >= 10) {
             timer_text = `00:${time}`
         } else if (time > 0) {
             timer_text = `00:0${time}`
+            timer_style = {
+                background: '#ffd387',
+            }
         } else {
-            timer_text = "TIME'S UP!"
+            timer_text = "00:00"
+            timer_style = {
+                background: '#b81200',
+                color: 'white'
+            }
         }
 
         const card = card_idx !== null ? cards[card_idx] : null
         const num_cards = cards !== null ? cards.filter((c) => !c.used).length : null
         return (
-            <div>
-                {num_cards !== null && (
-                    <p>There are {num_cards} cards remaining in the deck</p>
-                )}
+            <div id='appscreen'>
                 <div id='game'>
                     <div id='score'>
-                        <span>Got: {got}</span>
-                        <span>Pass+Buzz: {pass + buzz}</span>
+                        <div>Score: {got - pass - buzz}</div>
+                        <div id='timer'><span style={timer_style}>{timer_text}</span></div>
                     </div>
-                    <div id='timer'>{timer_text}</div>
                     {card !== null && (
-                        <div>
-                            <Card {...card} />
+                        <div id='card-area'>
                             <div id='play-controls'>
-                                <button onClick={() => this.gotIt(card.id)}>Got it!</button>
-                                <button onClick={() => this.buzz(card.id)}>Buzz!</button>
-                                <button onClick={() => this.pass(card.id)}>Pass</button>
+                                <button id='got' onClick={() => this.gotIt(card.id)}><i className='fa fa-check-square' />Got it!</button>
+                                <button id='buzz' onClick={() => this.buzz(card.id)}><i className='fa fa-bell' />Buzz!</button>
+                                <button id='pass' onClick={() => this.pass(card.id)}><i className='fa fa-arrow-right' />Pass</button>
                             </div>
+                            <Card {...card} />
                         </div>
                     )}
-                    {card === null && (
-                        <button onClick={this.start}>Start</button>
+                    {card === null && num_cards > 0 && (
+                        <div id='card-area'>
+                            <button id='start' onClick={this.start}>Start</button>
+                        </div>
+                    )}
+                    {card === null && num_cards == 0 && (
+                        <div id='card-area'>
+                            <p>No more cards remaining. <a onClick={this.shuffle}>Shuffle</a> to play again.</p>
+                        </div>
                     )}
                 </div>
+                {num_cards !== null && (
+                    <p id='remaining'>There are {num_cards} cards remaining in the deck</p>
+                )}
                 <div id='shuffling'>
                     <p>Only click this when the whole game is over... it completely resets everything!</p>
                     <button onClick={this.shuffle}>Shuffle</button>

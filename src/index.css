@@ -12,25 +12,101 @@ body {
     z-index: 0;
 }
 
-div#timer {
-    font-size: 36px;
+div#appscreen {
     margin: 20px;
 }
 
+div#score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+}
+
+div#timer {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+div#timer span {
+    font-size: 28px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-weight: bold;
+    background: #e2e2e2;
+    color: black;
+}
+
+div#play-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#play-controls button {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+button#got {
+    background: green;
+    color: white;
+}
+
+button#buzz {
+    background: red;
+    color: white;
+}
+
+button#pass {
+    background: #b06f00;
+    color: white;
+}
+
+
+button i {
+    margin-right: 8px;
+}
+
+div#card-area {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#card-area p a{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+button#start {
+    margin-top: 50px;
+    font-size: 24px;
+    background: #ffc054;
+}
+
+p#remaining {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+div#score div {
+    margin-right: 40px;
+}
+
 div#taboo-card {
-    width: 400px;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 0;
     border: 2px solid black;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #d4ecff;
 }
 
 div#main-word {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
-
 }
 
 div#banned-words {
