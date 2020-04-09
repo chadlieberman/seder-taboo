@@ -160,8 +160,8 @@ class Game extends React.Component {
         return (
             <div id='appscreen'>
                 <div id='game'>
-                    <div id='score'>
-                        <div>Score: {got - pass - buzz}</div>
+                    <div id='score-area'>
+                        <div id='score'>Score: {got - pass - buzz}</div>
                         <div id='timer'><span style={timer_style}>{timer_text}</span></div>
                     </div>
                     {card !== null && (

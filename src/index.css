@@ -17,20 +17,20 @@ div#appscreen {
     margin: 20px;
 }
 
-div#score {
+div#score-area {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    font-size: 22px;
+    justify-content: space-between;
+    font-size: 26px;
+    margin-bottom: 30px;
 }
 
-div#timer {
-    margin-bottom: 30px;
-    margin-top: 10px;
+div#score {
+    padding: 10px 0px;
 }
 
 div#timer span {
-    font-size: 28px;
+    display: block;
     padding: 10px 20px;
     border: 1px solid black;
     font-weight: bold;
