@@ -52,7 +52,7 @@
     {
         "main_word": "Charoset",
         "banned_words": [
-            "Any of the ingredients (apples, dates, raisins, walnuts, honey)",
+            "Any of the ingredients",
             "Mortar",
             "Food",
             "Sweet",
@@ -71,25 +71,31 @@
             "Egypt"
         ]
     },
+
     {
         "main_word": "Plague",
         "banned_words": [
             "Coronavirus",
-            "Black Plague/ bubonic plague/ Black Death",
-            "Any of the actual 10 plagues",
-            "",
-            "Leaning",
+            "Black",
+            "Bubonic",
+            "Any of the 10 plagues",
+            "Disease"
+        ]
+    },
+    {
+        "main_word": "Lean",
+        "banned_words": [
             "Recline",
             "Pillow",
-            "Chair",
             "Seat",
+            "Chair",
             "Relax"
         ]
     },
     {
         "main_word": "Seder plate",
         "banned_words": [
-            "Any of the actual items on the Seder plate",
+            "Any items on the Seder plate",
             "Order",
             "Symbol",
             "Spring",
@@ -217,7 +223,7 @@
     {
         "main_word": "Egg",
         "banned_words": [
-            "Chicken (or any other bird)",
+            "Chicken (or any bird)",
             "Nest",
             "Spring",
             "Baby",
@@ -370,6 +376,330 @@
             "Event",
             "Music",
             "Coachella"
+        ]
+    },
+
+    {
+        "main_word": "Bingo",
+        "banned_words": [
+            "Game",
+            "Name-o",
+            "Song",
+            "Simone",
+            "Grid"
+        ]
+    },
+
+    {
+        "main_word": "Aaron",
+        "banned_words": [
+            "Brother",
+            "Moses",
+            "Sibling",
+            "Jew",
+            "Egypt"
+        ]
+    },
+
+    {
+        "main_word": "Slaves",
+        "banned_words": [
+            "Jews",
+            "Egyptians",
+            "Moses",
+            "Free",
+            "African American"
+        ]
+    },
+
+    {
+        "main_word": "Boils",
+        "banned_words": [
+            "Skin",
+            "Inflammed",
+            "Bump",
+            "Red",
+            "Plague"
+        ]
+    },
+
+    {
+        "main_word": "Blood",
+        "banned_words": [
+            "Red",
+            "Body",
+            "Cell",
+            "Plague",
+            "River"
+        ]
+    },
+
+    {
+        "main_word": "Death",
+        "banned_words": [
+            "Die",
+            "Plague",
+            "First born",
+            "Grim reaper",
+            "Funeral"
+        ]
+    },
+
+    {
+        "main_word": "First born",
+        "banned_words": [
+            "Antonia",
+            "Sibling",
+            "Kyle",
+            "Sister",
+            "Brother",
+            "Plague"
+        ]
+    },
+
+    {
+        "main_word": "Flour",
+        "banned_words": [
+            "Wheat",
+            "Bread",
+            "Matzah",
+            "Bake",
+            "Powder"
+        ]
+    },
+
+    {
+        "main_word": "Song",
+        "banned_words": [
+            "Sing",
+            "Dayenu",
+            "Lyrics",
+            "Melody",
+            "Tune"
+        ]
+    },
+
+    {
+        "main_word": "Flies",
+        "banned_words": [
+            "Bugs",
+            "Insects",
+            "Black",
+            "Plague",
+            "Buzz"
+        ]
+    },
+
+    {
+        "main_word": "Hail",
+        "banned_words": [
+            "Rain",
+            "Ice",
+            "Snow",
+            "Plague",
+            "Precipitation"
+        ]
+    },
+
+    {
+        "main_word": "Darkness",
+        "banned_words": [
+            "Plague",
+            "Color",
+            "Night",
+            "White",
+            "Black"
+        ]
+    },
+
+    {
+        "main_word": "Torah",
+        "banned_words": [
+            "Book",
+            "Bible",
+            "Any of the books",
+            "Testament",
+            "Read"
+        ]
+    },
+    {
+        "main_word": "Snake",
+        "banned_words": [
+            "Serpent",
+            "Slither",
+            "Cobra",
+            "Reptile",
+            "Python"
+        ]
+    },
+    {
+        "main_word": "Staff",
+        "banned_words": [
+            "Pharaoh",
+            "Gandalf",
+            "Aaron",
+            "Stick",
+            "Wood"
+        ]
+    },
+    {
+        "main_word": "Prayer",
+        "banned_words": [
+            "Any prayers",
+            "Bible",
+            "Torah",
+            "Religion",
+            "Read"
+        ]
+    },
+    {
+        "main_word": "Spring",
+        "banned_words": [
+            "Budding",
+            "Flower",
+            "Any season",
+            "Green",
+            "Leaves"
+        ]
+    },
+    {
+        "main_word": "Unleavened",
+        "banned_words": [
+            "Flat",
+            "Bread",
+            "Matzah",
+            "Yeast",
+            "Bake"
+        ]
+    },
+    {
+        "main_word": "Door",
+        "banned_words": [
+            "Close",
+            "Wall",
+            "Knob",
+            "Handle",
+            "Open"
+        ]
+    },
+    {
+        "main_word": "Smear",
+        "banned_words": [
+            "Cream cheese",
+            "Spread",
+            "Blood",
+            "Door",
+            "Knife"
+        ]
+    },
+    {
+        "main_word": "Ramses",
+        "banned_words": [
+            "Pharaoh",
+            "King",
+            "Egypt",
+            "Pyramid",
+            "Moses"
+        ]
+    },
+    {
+        "main_word": "Mount Sinai",
+        "banned_words": [
+            "Mountain",
+            "Hill",
+            "Commandment",
+            "Burning",
+            "Bush"
+        ]
+    },
+    {
+        "main_word": "Charlton Heston",
+        "banned_words": [
+            "Actor",
+            "10 Commandments",
+            "Old",
+            "Movie",
+            "Screen"
+        ]
+    },
+    {
+        "main_word": "Cecil B DeMille",
+        "banned_words": [
+            "Director",
+            "10 Commandments",
+            "Old",
+            "Movie",
+            "Screen"
+        ]
+    },
+    {
+        "main_word": "Table",
+        "banned_words": [
+            "Food",
+            "Dinner",
+            "Legs",
+            "Top",
+            "Plate"
+        ]
+    },
+    {
+        "main_word": "Plate",
+        "banned_words": [
+            "Food",
+            "Dinner",
+            "Eat",
+            "Bowl",
+            "Fork"
+        ]
+    },
+    {
+        "main_word": "Matzah ball soup",
+        "banned_words": [
+            "Dinner",
+            "Eat",
+            "Spoon",
+            "Bowl",
+            "Spicy"
+        ]
+    },
+    {
+        "main_word": "Tsimmas",
+        "banned_words": [
+            "Sweet potato",
+            "Potato",
+            "Roast",
+            "Dinner",
+            "Eat"
+        ]
+    },
+    {
+        "main_word": "Coconut macaroon",
+        "banned_words": [
+            "Cookie",
+            "Eat",
+            "Dessert",
+            "Flour",
+            "Sweet"
+        ]
+    },
+    {
+        "main_word": "Gefilte fish",
+        "banned_words": [
+            "Eat",
+            "Dinner",
+            "Puree",
+            "Gray",
+            "Swim"
+        ]
+    },
+    {
+        "main_word": "Brisket",
+        "banned_words": [
+            "Eat",
+            "Dinner",
+            "Beef",
+            "Cow",
+            "Cook"
         ]
     }
 ]
