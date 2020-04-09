@@ -5,7 +5,7 @@ import fetch$ from 'kefir-fetch'
 
 const base_url = window.location.href.includes('localhost')
     ? 'http://localhost:5000/'
-    : window.location.ref
+    : window.location.href
 
 const API_BASE_URL = base_url + 'api'
 
